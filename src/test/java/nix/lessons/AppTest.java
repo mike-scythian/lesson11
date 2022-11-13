@@ -1,4 +1,4 @@
-package org.example;
+package nix.lessons;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
