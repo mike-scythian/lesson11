@@ -14,7 +14,7 @@ public class App
 
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(bSort.bubbleSort(arr)));
-        System.out.println(binSearch.binarySearch(arr,-1,0,arr.length-1));
+        System.out.println(binSearch.binarySearch(arr,8,0,arr.length-1));
 
     }
 }
