@@ -1,6 +1,7 @@
 package nix.lessons;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class App
 {
@@ -12,9 +13,8 @@ public class App
         SearchUtils binSearch = new SearchUtils();
 
         System.out.println(Arrays.toString(arr));
-
         System.out.println(Arrays.toString(bSort.bubbleSort(arr)));
-        System.out.println(binSearch.binarySearch(arr,-10,0,arr.length-1));
+        System.out.println(binSearch.binarySearch(arr,-1,0,arr.length-1));
 
     }
 }
